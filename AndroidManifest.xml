@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.out2line2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.out2line2.FirstActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.out2line2.SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name="com.example.out2line2.ThirdActivity"
+            android:label="@string/title_activity_third" >
+        </activity>
+        <activity
+            android:name="com.example.out2line2.FourthActivity"
+            android:label="@string/title_activity_fourth" >
+        </activity>
+        <activity
+            android:name="com.example.out2line2.FifthActivity"
+            android:label="@string/title_activity_fifth" >
+        </activity>
+        <activity
+            android:name="com.example.out2line2.SixActivity"
+            android:label="@string/title_activity_six" >
+        </activity>
+        <activity
+            android:name="com.example.out2line2.SevenActivity"
+            android:label="@string/title_activity_seven" >
+        </activity>
+        <activity
+            android:name="com.example.out2line2.EightActivity"
+            android:label="@string/title_activity_eight" >
+        </activity>
+        <activity
+            android:name="com.example.out2line2.CheckinActivity"
+            android:label="@string/title_activity_checkin" >
+        </activity>
+        <activity
+            android:name="com.example.out2line2.GuruActivity"
+            android:label="@string/title_activity_guru" >
+        </activity>
+    </application>
+
+</manifest>
